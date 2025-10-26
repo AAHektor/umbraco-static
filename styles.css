@@ -176,10 +176,14 @@ body {
     cursor: pointer;
 
   }
+<<<<<<< HEAD
 
 }
 
 
+=======
+}
+>>>>>>> 35c3c03568997167f31e29c52c8e86842f5cac21
 /* === OUR SERVICES === */
 
 .services {
@@ -214,6 +218,7 @@ body {
 
 .service {
   background: #fff;
+  border: 1px solid #EAEAEA;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
   text-align: left;
   overflow: hidden;
@@ -226,17 +231,17 @@ body {
 }
 
 .service h4 {
-  font-size: 1rem;
-  font-weight: 800;
-  color: #33413a;
-  margin: 1rem 1.5rem 0.5rem 1.5rem;
+  font-size: 22px;
+  font-weight: 700;
+  color: var(--main-color);
+  padding: 1.5rem;
 }
 
 .service p {
-  font-size: 0.9rem;
-  color: #666;
+  font-size: 14px;
+  color: #535656;
   line-height: 1.5;
-  margin: 0 1.5rem 1.5rem 1.5rem;
+  padding: 1.3rem;
 }
 
 .img-service-container {
