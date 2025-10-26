@@ -13,6 +13,8 @@ body {
 :root {
   --main-color: #4F5955;
   --sub-color-1: #F2EDDC;
+  --sub-color-3: #D9C3A9;
+  --body-text-color: #535656;
 }
 
 /* === CONTAINER === */
@@ -177,6 +179,43 @@ body {
 
 }
 
+/* ABOUT US */
+.about {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  h2 {
+    color: var(--sub-color-3);
+    font-size: 14px;
+    font-weight: 800;
+  }
+  h3 {
+    font-size: 40px;
+    color: var(--main-color);
+    padding-bottom: 2.5rem;
+  }
+
+  .experience-p {
+    color: var(--body-text-color);
+    font-size: 20px;
+    font-weight: 300;
+    max-width: 700px;
+    padding-bottom: 1.5rem;
+  }
+
+  p {
+    font-size: 14px;
+    color: var(--body-text-color);
+    max-width: 720px;
+    padding-bottom: 2rem;
+  }
+
+  .signature-container {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+  }
+}
+
 
 /* === OUR SERVICES === */
 
@@ -249,3 +288,4 @@ body {
   height: auto;
   display: block;
 }
+
