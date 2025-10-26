@@ -130,11 +130,13 @@ body {
 
 .content-wrapper {
   max-width: 1200px;
+  width: 100%;
   margin: 0 auto;
   padding: 0 1rem;
+  display: flex;
+  flex-direction: column;
 }
 
-<<<<<<< HEAD
 /* HERO */
 
 .hero {
@@ -149,7 +151,6 @@ body {
 
   h1 {
     font-size: 70px;
-    line-height: 90px;
     color: var(--main-color);
     padding-bottom: 2rem;
     padding-top: 4rem;
@@ -172,10 +173,12 @@ body {
     font-size: 18px;
     font-weight: 600;
     border: none;
+    cursor: pointer;
 
   }
 
-=======
+}
+
 
 /* === OUR SERVICES === */
 
@@ -246,5 +249,4 @@ body {
   width: 100%;
   height: auto;
   display: block;
->>>>>>> 746ccb1b44ecd88013d0e761a34dced50f95f1d1
 }
