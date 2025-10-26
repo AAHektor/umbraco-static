@@ -118,3 +118,13 @@ body {
 .search-btn:hover {
   color: #71857c;
 }
+
+.main {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+}
