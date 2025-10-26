@@ -134,6 +134,7 @@ body {
   padding: 0 1rem;
 }
 
+<<<<<<< HEAD
 /* HERO */
 
 .hero {
@@ -174,4 +175,76 @@ body {
 
   }
 
+=======
+
+/* === OUR SERVICES === */
+
+.services {
+  background-color: #F7F7F7;
+  text-align: center;
+  padding: 6rem 2rem;
+}
+
+.services h2 {
+  color: #D9C3A9;
+  font-size: 14px;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 0.8rem;
+}
+
+.services h3 {
+  color: #4F5955;
+  font-size: 40px;
+  font-weight: 800;
+  line-height: 1.4;
+  margin: 0 auto 3.5rem auto;
+}
+
+.services-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 2rem;
+  justify-content: center;
+}
+
+.service {
+  background: #fff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  text-align: left;
+  overflow: hidden;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.service:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.08);
+}
+
+.service h4 {
+  font-size: 1rem;
+  font-weight: 800;
+  color: #33413a;
+  margin: 1rem 1.5rem 0.5rem 1.5rem;
+}
+
+.service p {
+  font-size: 0.9rem;
+  color: #666;
+  line-height: 1.5;
+  margin: 0 1.5rem 1.5rem 1.5rem;
+}
+
+.img-service-container {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+
+.img-service-container img {
+  width: 100%;
+  height: auto;
+  display: block;
+>>>>>>> 746ccb1b44ecd88013d0e761a34dced50f95f1d1
 }
