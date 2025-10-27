@@ -15,6 +15,8 @@ body {
   --sub-color-1: #F2EDDC;
   --sub-color-3: #D9C3A9;
   --body-text-color: #535656;
+
+  --hover-background-color: #71857c;
 }
 
 /* === CONTAINER === */
@@ -182,10 +184,16 @@ body {
     font-weight: 600;
     border: none;
     cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
 
   }
 
+  .contact-button:hover {
+    background-color: var(--hover-background-color);
+  }
+
 }
+
 
 /* ABOUT US */
 .about {
